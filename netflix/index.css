@@ -1,0 +1,117 @@
+.login-body{
+  margin: 0px;
+  padding: 0px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-image: url(netflix-bg.webp);
+  padding-bottom: 200px;
+  align-items: center;
+  position: relative;
+}
+
+.login-header{
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  display: inline-block;
+  max-height: 210px;
+  max-width: 210px;
+}
+.login-header img{
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+}
+.login-container{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 40px;
+  background-color: rgba(0, 0, 0,0.8);
+  border-radius: 10px;
+  max-width: 350px;
+  padding-top: 60px;
+  padding-left: 55px;
+  padding-right: 55px;
+  padding-bottom: 100px;
+}
+.login-container-header{
+  font-size: 33px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.login-container-info{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  row-gap: 20px;
+  width: 100%;
+  padding-top: 25px;
+  padding-bottom: 35px;
+}
+.login-container-info input{
+  height: 40px;
+  padding: 5px 10px;
+  font-size: 15px;
+  background-color: rgb(51, 51, 51);
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+.login-container-info input:focus{
+  outline: none;
+}
+.login-container-info input:focus{
+  border-bottom: 2px solid orange;
+  border-right: 2px solid orange;
+}
+.login-container-button{
+  width: 100%;
+  margin-bottom: 8px;
+}
+.login-container-button button{
+  width: 100%;
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: rgb(229, 9, 20);
+  border: none;
+  padding: 15px;
+}
+.login-container-help{
+  display: flex;
+  flex-direction: row;
+  color: rgb(179, 179, 179);
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.login-container-help a{
+  text-decoration: none;
+  color: rgb(179,179,179);
+}
+.login-container-help a:hover{
+  text-decoration: underline 1px;         
+}
+.login-container-help input.checkbox{
+  cursor: pointer;
+  height: 16px;
+  width: 16px;
+}
+.login-container-signup{
+  width: 100%;
+  color: rgb(179, 179, 179);
+}
+.login-container-signup a{
+  color: white;
+  text-decoration: none;
+}
+.login-container-signup a:hover{
+  text-decoration: underline 1px;
+}
+.login-container-signup .more{
+  color: blue;
+}
